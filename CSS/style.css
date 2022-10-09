@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  padding: 100;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  color: #444;
+  background-color: #f3f3f3;
+}
+
+/*layout*/
+main {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.914);
+  box-shadow: 0 3rem 5rem rgba(201, 197, 197, 0.25);
+  overflow: hidden;
+  display: flex;
+}
+h1 {
+  font-size: 300%;
+}
+h4 {
+  font-size: 200%;
+}
+nav {
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*element*/
+.main--img {
+  overflow: hidden;
+  width: 50%;
+  height: 70%;
+  object-fit: cover;
+}
+
+.new {
+  width: 50%;
+  min-height: 100%;
+  padding-bottom: 10%;
+  padding-top: 10%;
+  margin-left: 25%;
+}
+.footer {
+  clear: both;
+  position: relative;
+  height: 20px;
+}
+.log {
+  padding: 20px;
+  margin: 20px;
+}
+.logo {
+  padding: 10px;
+  margin: 10px;
+}
+.heading {
+  padding: 10px;
+  margin: 10px;
+}
+.heading_login {
+  padding: 10px;
+  margin: 10px;
+}
+.input {
+  font-size: 1.6rem;
+  font-family: inherit;
+  text-align: center;
+  width: 25rem;
+  border-radius: 10rem;
+  margin: 1rem;
+  color: inherit;
+  border: 2px solid gainsboro;
+  transition: all 0.3s;
+  background-color: rgb(249, 245, 245);
+}
+.input:focus {
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+.input::placeholder {
+  color: #bbb;
+}
+
+.login-btn {
+  border: none;
+  background-color: rgb(111, 187, 241);
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 6rem;
+  padding: 0.2rem;
+  border-radius: 10rem;
+  margin: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.login-btn:hover,
+.login-btn:focus {
+  outline: none;
+  color: #777;
+}
+
+.singh-txt {
+  padding: 10px;
+  margin: 50px 10px 10px 10px;
+  display: flex;
+  font-size: 150%;
+}
+.join-button {
+  border: 1px solid rgba(140, 135, 135, 0.892);
+  background-color: rgb(255, 255, 255);
+  color: rgb(111, 187, 241);
+  font-size: 1.5rem;
+  text-align: center;
+  width: 6rem;
+  padding: 0.2rem;
+  border-radius: 10rem;
+  margin: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
