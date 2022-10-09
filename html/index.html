@@ -75,7 +75,7 @@
       <div class="singup hidden">
         <button class="close-sign-up">&times;</button>
 
-        <h1>Create your account</h1>
+        <h1 id="singup-id">Create your account</h1>
 
         <form>
           <nav>
@@ -111,52 +111,69 @@
             </div>
 
             <div>
-              <input type="password" name="password" placeholder="password"
-              class=" class="signup--input" " /> <input type="password"
-              name="confirm password" placeholder="confirm password" class="
-              class="signup--input" />
+              <input
+                type="password"
+                name="password"
+                placeholder="password"
+                class="signup--input"
+              />
+              <input
+                type="password"
+                name="confirm password"
+                placeholder="confirm password"
+                class="signup--input"
+              />
             </div>
-            <div>
-              <div>
-                <label for="dropdown">Dropdown</label>
-                <select name="dropdown" id="sex">
+            <div class="signup-select">
+              <div id="sex">
+                <label for="dropdown">Gender</label>
+                <select name="dropdown" class="dropdown">
                   <option value="Male">Male</option>
                   <option value="Female">Female</option>
                 </select>
               </div>
+              <div id="dob">
+                <lable> Date of birth: </lable>
+                <input type="date" name="passout year" id="date" />
+              </div>
             </div>
-            <div id="dob">
-              Date of birth:
-              <input type="date" name="passout year" id="date" />
-              <div>
-                <input
-                  type="name"
-                  name="name"
-                  placeholder="Organisation Name"
-                  class="signup--input"
-                />
-              </div>
-              <div>
-                <input
-                  type="name"
-                  name="position"
-                  placeholder="position"
-                  class="signup--input"
-                />
-              </div>
 
-              <div>
-                <input type="radio" name="work" value="male" id="radio" />Sales
-                <input
-                  type="radio"
-                  name="work"
-                  value="female"
-                  id="radio"
-                />Purchase
+            <div>
+              <input
+                type="name"
+                name="name"
+                placeholder="Organisation Name"
+                class="signup--input"
+              />
+
+              <input
+                type="name"
+                name="position"
+                placeholder="position"
+                class="signup--input"
+              />
+            </div>
+            <div class="signup-select">
+              <div id="sex">
+                <label for="dropdown">State</label>
+                <select name="dropdown" class="dropdown">
+                  <option value="rajasthan">Rajasthan</option>
+                  <option value="Haryana">Haryana</option>
+                  <option value="up">UP</option>
+                  <option value="gujrat">Gujrat</option>
+                  <option value="Mumbai">mumbai</option>
+                </select>
               </div>
-              <div>
-                <label for="checkbox">Deals in:</label>
+              <div id="radio">
+                <label>Department</label>
+                <input type="radio" name="work" value="sale" />Sales
+                <input type="radio" name="work" value="purchase" />Purchase
               </div>
+            </div>
+
+            <div class="checkbox">
+              <label for="checkbox">Deals in</label>
+
               <div>
                 <input
                   type="checkbox"
@@ -201,7 +218,9 @@
                 />
                 BOS
               </div>
-              <button class="login-btn">submit</button>
+            </div>
+            <div id="submit-id">
+              <button class="submit-btn">submit</button>
             </div>
           </nav>
         </form>

@@ -134,11 +134,11 @@ nav {
   transition: all 0.3s;
 }
 
-/*.hidden {
+/*Sign Up properties*/
+.hidden {
   display: none;
 }
 
-*/
 .close-sign-up {
   position: absolute;
   top: 0.1rem;
@@ -153,9 +153,10 @@ nav {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 70%;
+  width: 45%;
+  height: 70%;
   background-color: white;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 5px;
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
   z-index: 10;
@@ -170,4 +171,95 @@ nav {
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(3px);
   z-index: 5;
+}
+.signup--input {
+  font-size: 1rem;
+  font-family: inherit;
+  text-align: center;
+  width: 20rem;
+  height: 2.5rem;
+  margin: none;
+  margin-bottom: 0.5rem;
+  color: inherit;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s;
+  background-color: rgb(247, 246, 246);
+}
+#singup-id {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.signup-select {
+  font-size: 1rem;
+  font-family: inherit;
+  text-align: center;
+  width: 100%;
+  height: 2.5rem;
+  margin: none;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  border: none;
+}
+.dropdown {
+  border: none;
+  background-color: rgb(247, 246, 246);
+  height: 2rem;
+  width: 8rem;
+}
+#date {
+  border: none;
+  background-color: rgb(247, 246, 246);
+  height: 2rem;
+  width: 8rem;
+}
+
+#sex {
+  position: absolute;
+  text-align: center;
+  width: 50%;
+  margin-left: 1rem;
+}
+#dob {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  padding-left: 1rem;
+}
+.submit-btn {
+  border: none;
+  background-color: rgb(111, 187, 241);
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 6rem;
+  padding: 0.2rem;
+  border-radius: 10rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+#submit-id {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.submit-btn:hover,
+.submit-btn:focus {
+  outline: none;
+  color: #777;
+}
+.checkbox {
+  margin: 0.5rem;
+}
+#sex {
+  position: absolute;
+  text-align: center;
+  width: 50%;
+  margin-left: 1rem;
+}
+#radio {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  padding-left: 1rem;
 }
