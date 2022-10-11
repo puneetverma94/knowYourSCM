@@ -1,0 +1,29 @@
+.footer_logo {
+  display: flex;
+  margin: 2rem;
+  align-items: center;
+  padding: 1rem;
+}
+#footer_picture {
+  margin: 1rem;
+}
+.footer__title {
+  position: relative;
+  text-align: center;
+  margin: 2rem;
+  width: 100%;
+  font-size: 200%;
+}
+.section__header {
+  text-align: center;
+}
+
+.footer__copyright {
+  font-size: small;
+  background-color: #777;
+}
+.footer__link {
+  font-size: 1.6rem;
+  color: #eee;
+  text-decoration: none;
+}
