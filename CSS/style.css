@@ -110,6 +110,10 @@ nav {
   color: #777;
 }
 
+.forgot__password {
+  margin-left: 1.5rem;
+}
+
 .singh-txt {
   padding: 10px;
   margin: 30px 10px 10px 10px;
