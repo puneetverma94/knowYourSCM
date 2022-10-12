@@ -33,37 +33,17 @@
   display: flex;
   width: 40%;
 }
-.places {
-  height: 3rem;
-  border: none;
-  background-color: whitesmoke;
-  box-shadow: 50px;
-}
-.search__text {
-  border: none;
-  width: 100%;
-  background-color: whitesmoke;
-  text-align: center;
-  justify-content: center;
-}
 .nav__links {
   display: flex;
 }
-.nav__list {
-  align-items: center;
-  display: flex;
-}
-.nav__item {
-  display: flex;
-}
-.nav_profile {
-  background-color: none;
-  padding: 4rem;
-}
+
 .nav__logout {
   text-align: center;
   color: black;
   width: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .nav__link--btn {
   height: 2rem;
@@ -95,4 +75,39 @@
 .nav__link--btn:active {
   color: inherit;
   background-color: rgb(224, 228, 232);
+}
+
+/*Option tag*/
+
+.update__option {
+}
+.personal__dataOption {
+}
+.professional__dataoption {
+}
+.password {
+}
+.personal_container {
+}
+.name {
+}
+.input__name {
+}
+.name__txt {
+}
+.email {
+}
+.email__name {
+}
+.email__txt {
+}
+.phone {
+}
+.phone__name {
+}
+.phone__txt {
+}
+.login {
+}
+.login__btn {
 }
