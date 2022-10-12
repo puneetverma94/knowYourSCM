@@ -14,169 +14,191 @@
     <title>Social for SCM</title>
   </head>
   <body>
-    <header class="header">
-      <nav class="nav">
-        <img
-          src="../images/SCM logo.webp"
-          alt="SCM_logo"
-          class="nav__logo"
-          id="logo"
-          width="75"
-        />
-        <ul class="nav__links">
-          <li class="nav__item">
-            <a class="nav__link"> Social for Solar </a>
-          </li>
-          <li class="nav__item">
-            <div>
-              <select type="dropdown" class="dropdown">
-                <Option value="delhi">Delhi</Option>
-                <Option value="haryana">Haryana</Option>
-                <Option value="up">UP</Option>
-                <Option value="gujarat">Gujarat</Option>
-                <Option value="rajasthan">Rajasthan</Option>
-              </select>
-              <input type="search" name="search" class="nav__search" />
-            </div>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link">Update Profile</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link nav__link--btn">Logout</a>
-          </li>
-        </ul>
-      </nav>
-
-      <div class="header__title">
-        <h1>
-          When
-          <!-- Green highlight effect -->
-          <span class="highlight">technology</span>
-          meets<br />
-          <span class="highlight">minimalist</span>
-        </h1>
-        <h4>A simpler banking experience for a simpler life.</h4>
-        <button class="btn--text btn--scroll-to">
-          Find your vendor &DownArrow;
-        </button>
-        <img
-          src="img/hero.png"
-          class="header__img"
-          alt="Minimalist bank items"
+    <div class="nav">
+      <div class="nav__div">
+        <img src="../images/SCM logo.png" alt="SCM_logo" class="nav__logo" />
+      </div>
+      <div class="nav__heading">
+        <a class="nav__name"> Social for Solar </a>
+      </div>
+      <div class="nav__search">
+        <select class="places">
+          <option value="rajasthan">Rajasthan</option>
+          <option value="Haryana">Haryana</option>
+          <option value="up">UP</option>
+          <option value="gujrat">Gujrat</option>
+          <option value="Mumbai">mumbai</option>
+        </select>
+        <input
+          type="search"
+          name="search"
+          class="search__text"
+          placeholder="search"
         />
       </div>
-    </header>
-    <section class="section" id="section--main">
-      <section class="vetrical--section">
-        <div>
-          <a class="connections" id="connections--tag"> connections </a>
+
+      <div class="nav__links">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav_profile">Update Profile</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__logout nav__link--btn" href="../html/index.html"
+              >Logout</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="banner__title">
+      <h1>
+        When
+        <!-- Green highlight effect -->
+        <span class="highlight">technology</span>
+        meets<br />
+        <span class="highlight">minimalist</span>
+      </h1>
+      <h4>A simpler Social environment for a simpler trading.</h4>
+      <button class="btn--text btn--scroll-to">
+        Find your Connection &DownArrow;
+      </button>
+      <img
+        src="../images/Solar_installation.jpg"
+        class="header__img"
+        alt="Minimalist bank items"
+        width="400"
+      />
+    </div>
+    <div class="main__section" id="connection_view">
+      <div class="connections__bord">
+        <div class="connections--main">
+          <a id="connection_heading"> Connections </a>
         </div>
-        <div><a class="connections">@puneet</a></div>
-        <div><a class="connections">@puneet</a></div>
-        <div><a class="connections">@puneet</a></div>
-        <div><a class="connections">@puneet</a></div>
-        <div><a class="connections">@puneet</a></div>
-        <div></div>
-      </section>
-
-      <section class="section" id="section--1">
-        <div class="section__title">
-          <h2 class="section__description">Features</h2>
-          <h3 class="section__header">
-            Everything you need in a modern bank and more.
-          </h3>
-        </div>
-
-        <div class="features">
-          <img
-            src="img/digital-lazy.jpg"
-            data-src="img/digital.jpg"
-            alt="Computer"
-            class="features__img lazy-img"
-          />
-          <div class="features__feature">
-            <div class="features__icon">
-              <svg>
-                <use xlink:href="img/icons.svg#icon-monitor"></use>
-              </svg>
-            </div>
-            <h5 class="features__header">100% digital bank</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-              alias sint quos? Accusantium a fugiat porro reiciendis saepe
-              quibusdam debitis ducimus.
-            </p>
+        <div class="connection__display">
+          <div class="connections_container">
+            <a class="connections">@puneet</a>
           </div>
-
-          <div class="features__feature">
-            <div class="features__icon">
-              <svg>
-                <use xlink:href="img/icons.svg#icon-trending-up"></use>
-              </svg>
-            </div>
-            <h5 class="features__header">Watch your money grow</h5>
-            <p>
-              Nesciunt quos autem dolorum voluptates cum dolores dicta fuga
-              inventore ab? Nulla incidunt eius numquam sequi iste pariatur
-              quibusdam!
-            </p>
+          <div class="connections_container">
+            <a class="connections">@puneet</a>
           </div>
-          <img
-            src="img/grow-lazy.jpg"
-            data-src="img/grow.jpg"
-            alt="Plant"
-            class="features__img lazy-img"
-          />
-
-          <img
-            src="img/card-lazy.jpg"
-            data-src="img/card.jpg"
-            alt="Credit card"
-            class="features__img lazy-img"
-          />
-          <div class="features__feature">
-            <div class="features__icon">
-              <svg>
-                <use xlink:href="img/icons.svg#icon-credit-card"></use>
-              </svg>
-            </div>
-            <h5 class="features__header">Free debit card included</h5>
-            <p>
-              Quasi, fugit in cumque cupiditate reprehenderit debitis animi enim
-              eveniet consequatur odit quam quos possimus assumenda dicta fuga
-              inventore ab.
-            </p>
+          <div class="connections_container">
+            <a class="connections">@puneet</a>
           </div>
-        </div>
-      </section>
-
-      <footer class="footer">
-        <div class="footer_logo">
-            <div>
-
-                <img src="../images/SCM logo.png" alt="Logo" width="50" id="footer_picture" />
-            </div>
-          <div class="footer__title">
-            <h3 class="section__header">
-              The best day to join Bankist was one year ago. The second best is
-              today!
-            </h3>
+          <div class="connections_container">
+            <a class="connections">@puneet</a>
+          </div>
+          <div class="connections_container">
+            <a class="connections">@puneet</a>
+          </div>
+          <div class="connections_container">
+            <a class="connections">@puneet</a>
+          </div>
+          <div class="connections_container">
+            <a class="connections">@puneet</a>
+          </div>
+          <div class="connections_container">
+            <a class="connections">@puneet</a>
+          </div>
+          <div class="connections_container">
+            <a class="connections">@puneet</a>
+          </div>
+          <div class="connections_container">
+            <a class="connections">@puneet</a>
+          </div>
+          <div class="connections_container">
+            <a class="connections">@puneet</a>
+          </div>
+          <div class="connections_container">
+            <a class="connections">@puneet</a>
+          </div>
+          <div class="connections_container">
+            <a class="connections">@puneet</a>
+          </div>
+          <div class="connections_container">
+            <a class="connections">@puneet</a>
+          </div>
+          <div class="connections_container">
+            <a class="connections">@puneet</a>
           </div>
         </div>
-  
-        <p class="footer__copyright">
-          &copy; Copyright by
-          <a
-            class="footer__link email-link"
-            target="_blank"
-            href="mailto: puneet.verma.1994@gmail.com"
-            >Puneet Verma</a
-          >. Use for learning or your portfolio. Don't use to teach. Don't claim
-          as your own product.
-        </p>
-      </footer>
-</html>
+      </div>
+
+      <div class="main-display" id="section--1">
+        <div class="section__1">
+          <div class="img_container">
+            <p class="img__name">Solar module</p>
+            <img
+              class="section-11"
+              src="../images/solar module.jpg"
+              alt="=Solar module"
+            />
+          </div>
+          <div class="img_container">
+            <p class="img__name">Solar module</p>
+            <img
+              class="section-12"
+              src="../images/inverter.webp"
+              alt="Solar Inverter"
+            />
+          </div>
+        </div>
+        <div class="section__2">
+          <div class="img_container">
+            <p class="img__name">Solar module</p>
+            <img
+              class="section-21"
+              src="../images/AC cables.jpg"
+              alt="AC cables"
+            />
+          </div>
+          <div class="img_container">
+            <p class="img__name">Solar module</p>
+            <img
+              class="section-22"
+              src="../images/Aliminum_solar_structure.webp"
+              alt="Aluminum Solar Structure"
+            />
+          </div>
+        </div>
+        <div class="section__3">
+          <div class="img_container">
+            <p class="img__name">Solar module</p>
+            <img
+              class="section-31"
+              src="../images/GI_solar_structure.png"
+              alt="GI solar Structure"
+            />
+          </div>
+          <div class="img_container">
+            <p class="img__name">Solar module</p>
+            <img
+              class="section-32"
+              src="../images/solar bos.webp"
+              alt="Balance of material"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer__title">
+        <h3 class="section__header">
+          The best day to join Bankist was one year ago. The second best is
+          today!
+        </h3>
+      </div>
+
+      <p class="footer__copyright">
+        &copy; Copyright by
+        <a
+          class="footer__link email-link"
+          target="_blank"
+          href="mailto: puneet.verma.1994@gmail.com"
+          >Puneet Verma</a
+        >. Use for learning or your portfolio. Don't use to teach. Don't claim
+        as your own product.
+      </p>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

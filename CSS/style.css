@@ -52,12 +52,7 @@ nav {
   margin-left: 25%;
   margin-bottom: 4%;
 }
-.footer {
-  clear: both;
-  position: relative;
-  height: 20px;
-  position: bottom;
-}
+
 .log {
   padding: 20px;
   margin: 20px;
@@ -267,11 +262,13 @@ nav {
 .footer__link {
   font-size: 1rem;
   color: #eee;
-  text-decoration: none;
 }
 
 .footer__copyright {
-  height: 2rem;
+  padding-top: 3px;
+  height: 1.8rem;
   font-size: medium;
   background-color: #777;
+  text-align: center;
+  margin: 1px;
 }
