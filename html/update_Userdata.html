@@ -29,31 +29,149 @@
       </div>
     </div>
     <div class="update__option">
-      <div class="personal__dataOption">Personal Data</div>
-      <div class="professional__dataoption">Professional Data</div>
-      <div class="Password">Password</div>
+      <div class="dataoption">Personal Data</div>
+      <div class="dataoption">Professional Data</div>
+      <div class="dataoption">Password</div>
     </div>
-    <div class="personal_container">
-      <div class="name">
-        <div class="name__txt">Name</div>
-        <input type="name" name="name" class="input__name" />
+    <div class="main__body">
+      <div class="personal_container hidden">
+        <div class="name">
+          <div class="name__txt">Name</div>
+          <input type="name" name="name" class="input__name" />
+        </div>
+        <div class="email">
+          <div class="email__txt">Email</div>
+          <input type="email" name="email" class="input__email" />
+        </div>
+        <div class="phone">
+          <div class="phone__txt">Phone</div>
+          <input
+            type="number"
+            name="phone"
+            class="input__phone"
+            minlength="10"
+            maxlength="10"
+          />
+        </div>
+        <div class="update">
+          <button class="update__btn">Update</button>
+        </div>
       </div>
-      <div class="email">
-        <div class="email__txt">Email</div>
-        <input type="email" name="email" class="input__email" />
+
+      <!--Professional detail Update -->
+
+      <div class="professional_container hidden">
+        <div class="organization">
+          <div class="organization__name">Organization Name</div>
+          <input
+            type="name"
+            name="name"
+            placeholder="Organisation Name"
+            class="organization__input"
+          />
+        </div>
+        <div class="position">
+          <div class="postion__name">position</div>
+          <input
+            type="name"
+            name="position"
+            placeholder="position"
+            class="position__input"
+          />
+        </div>
+
+        <div class="state">
+          <div class="state__name">State</div>
+          <select name="dropdown" class="state__option">
+            <option value="rajasthan">Rajasthan</option>
+            <option value="Haryana">Haryana</option>
+            <option value="up">UP</option>
+            <option value="gujrat">Gujrat</option>
+            <option value="Mumbai">mumbai</option>
+          </select>
+        </div>
+        <div class="department">
+          <div class="department__name">Department</div>
+          <input type="radio" name="work" value="sale" />Sales
+          <input type="radio" name="work" value="purchase" />Purchase
+        </div>
+
+        <div class="deals">
+          <div class="deals__name">Deals in</div>
+
+          <div>
+            <input
+              type="checkbox"
+              name="checkbox"
+              value="Module"
+              class="deals__option"
+            />
+            Solar Modules
+            <input
+              type="checkbox"
+              name="checkbox"
+              value="Inverter"
+              class="deals__option"
+            />
+            Inverter
+            <input
+              type="checkbox"
+              name="checkbox"
+              value="ACDB"
+              class="deals__option"
+            />
+            ACDB
+            <input
+              type="checkbox"
+              name="checkbox"
+              value="cables"
+              class="deals__option"
+            />
+            cables
+            <input
+              type="checkbox"
+              name="checkbox"
+              value="Aliminium structure"
+              class="deals__option"
+            />
+            Aliminium structure
+            <input
+              type="checkbox"
+              name="checkbox"
+              value="GI structure"
+              class="deals__option"
+            />
+            GI structure
+            <input
+              type="checkbox"
+              name="checkbox"
+              value="BOS"
+              class="deals__option"
+            />
+            BOS
+          </div>
+        </div>
+        <div class="update">
+          <button class="update__btn">Update</button>
+        </div>
       </div>
-      <div class="phone">
-        <div class="phone__txt">Phone</div>
-        <input
-          type="number"
-          name="phone"
-          class="input__phone"
-          minlength="10"
-          maxlength="10"
-        />
-      </div>
-      <div class="login">
-        <button class="login__btn">Login</button>
+      <!--Professional detail Update -->
+      <div class="password_container">
+        <div class="password">
+          <div class="password__txt">Current password</div>
+          <input type="name" name="name" class="input__password" />
+        </div>
+        <div class="password">
+          <div class="password__txt">New Password</div>
+          <input type="email" name="email" class="input__password" />
+        </div>
+        <div class="password">
+          <div class="password__txt">Confirm Password</div>
+          <input type="email" name="email" class="input__password" />
+        </div>
+        <div class="update">
+          <button class="update__btn">Update</button>
+        </div>
       </div>
     </div>
   </body>
