@@ -137,6 +137,7 @@ nav {
 /*Sign Up properties*/
 .hidden {
   display: none;
+  opacity: 0;
 }
 
 .close-sign-up {
