@@ -116,101 +116,42 @@ body {
 }
 
 /* Main section*/
+.main__display--noresult {
+  width: 40rem;
+  height: 22rem;
+}
 .main__display {
-  position: relative;
-  width: 100%;
-  min-height: 50rem;
+  width: 90%;
   height: fit-content;
+  padding: 4rem;
 }
-/*Connections*/
-.connections__bord {
-  margin-left: 5rem;
-  background-color: white;
-  left: 5rem;
-  width: 15rem;
-  height: 38rem;
-  text-align: left;
+/* No search results
+.no__result {
+    padding: 0 10rem;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 10rem;
 }
-.connections--main {
-  text-align: center;
-  height: 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#connection_heading {
-  font-weight: 500;
-  font-size: 125%;
-}
-.connection__display {
-  text-align: center;
-  overflow-y: scroll;
-  height: 38rem;
-}
-.connections_container {
-  height: 3rem;
-  border-radius: 30px;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-}
-.connections_pic {
-  margin: 0.2rem;
-  border-radius: 100%;
-  width: 25%;
-  height: 65%;
-}
-.connections {
-  width: 100%;
-  text-align: left;
-  margin-left: 0.5rem;
-}
-.connections_container:hover {
-  color: black;
-  font-weight: bold;
-  background-color: rgb(243, 245, 247);
-  height: 5rem;
-  transition: 0.1s;
-}
+*/
 
-/*connection popup*/
+/*Search results*/
 .display_connection {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 50rem;
+  display: flex;
+  position: relative;
+  left: 10%;
+  right: 10%;
+  width: 80%;
   height: 17rem;
   background-color: white;
+  margin: 2px 0;
   padding: 1rem;
-  box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
-  z-index: 1000;
+  box-shadow: 0 1rem 1rem rgba(202, 201, 201, 0.3);
   transition: all 0.5s;
-  display: flex;
 }
 
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(235, 232, 232, 0.6);
-  backdrop-filter: blur(3px);
-  z-index: 100;
-}
-
-.btn__close {
-  font-family: inherit;
-  color: inherit;
-  position: absolute;
-  top: 0.5rem;
-  right: 2rem;
-  font-size: 2rem;
-  cursor: pointer;
-  border: none;
-  background: none;
-}
 .connection_photo {
   width: 15rem;
 }
