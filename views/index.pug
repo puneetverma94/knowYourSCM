@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="../images/SCM logo.webp" />
+
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <title>Social Solar Supply</title>
+    <script defer src="../../views/home_page.js"></script>
+  </head>
+  <body>
+    <!-- log in page-->
+    <main>
+      <!-- half page cover image -->
+      <div class="main--img">
+        <img
+          src="../images/supply_Chain.jpeg"
+          alt="CoverLogo"
+          class="coverphoto"
+          id="logo"
+        />
+        <div class="new">
+          <img
+            class="new"
+            src="../images/purchase-2652345-2210335.png"
+            alt="CoverLogo"
+            class="coverphoto"
+            id="logo"
+          />
+        </div>
+      </div>
+      <!-- sign up form -->
+      <div class="main--signup">
+        <div class="logo">
+          <img src="../images/SCM logo.png" width="75" />
+        </div>
+        <div class="heading">
+          <h1 id="Site-name">Social Solar Supply</h1>
+        </div>
+        <div class="heading_login">
+          <h4>Log in to your account</h4>
+        </div>
+        <form>
+          <nav>
+            <div>
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                class="input"
+              />
+            </div>
+
+            <div>
+              <input
+                type="password"
+                name="password"
+                placeholder="password"
+                class="input"
+              />
+            </div>
+            <div>
+              <button class="login-btn">Login</button>
+            </div>
+            <div class="forgot__password">
+              <a>Forget Password</a>
+            </div>
+          </nav>
+        </form>
+        <div class="singh-txt">
+          <h3>Don't have an account</h3>
+        </div>
+        <div>
+          <button class="join-button">Join</button>
+        </div>
+      </div>
+      <!-- singh up form-->
+      <div class="singup hidden">
+        <button class="close-sign-up">&times;</button>
+
+        <h1 id="singup-id">Create your account</h1>
+
+        <form>
+          <nav>
+            <div>
+              <input
+                type="name"
+                name="name"
+                placeholder="first name"
+                class="signup--input"
+              />
+              <input
+                type="name"
+                name="name"
+                placeholder="last-name"
+                class="signup--input"
+              />
+            </div>
+            <div>
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                class="signup--input"
+              />
+              <input
+                type="mobleno"
+                name="mobileno"
+                placeholder="Phone No."
+                class="signup--input"
+                maxlength="10"
+                minlength="10"
+              />
+            </div>
+
+            <div>
+              <input
+                type="password"
+                name="password"
+                placeholder="password"
+                class="signup--input"
+              />
+              <input
+                type="password"
+                name="confirm password"
+                placeholder="confirm password"
+                class="signup--input"
+              />
+            </div>
+            <div class="signup-select">
+              <div id="sex">
+                <label for="dropdown">Gender</label>
+                <select name="dropdown" class="dropdown">
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                </select>
+              </div>
+              <div id="dob">
+                <lable> Date of birth: </lable>
+                <input type="date" name="passout year" id="date" />
+              </div>
+            </div>
+
+            <div>
+              <input
+                type="name"
+                name="name"
+                placeholder="Organisation Name"
+                class="signup--input"
+              />
+
+              <input
+                type="name"
+                name="position"
+                placeholder="position"
+                class="signup--input"
+              />
+            </div>
+            <div class="signup-select">
+              <div id="sex">
+                <label for="dropdown">State</label>
+                <select name="dropdown" class="dropdown">
+                  <option value="rajasthan">Rajasthan</option>
+                  <option value="Haryana">Haryana</option>
+                  <option value="up">UP</option>
+                  <option value="gujrat">Gujrat</option>
+                  <option value="Mumbai">mumbai</option>
+                </select>
+              </div>
+              <div id="radio">
+                <label>Department</label>
+                <input type="radio" name="work" value="sale" />Sales
+                <input type="radio" name="work" value="purchase" />Purchase
+              </div>
+            </div>
+
+            <div class="checkbox">
+              <label for="checkbox">Deals in</label>
+
+              <div>
+                <input
+                  type="checkbox"
+                  name="checkbox"
+                  value="Module"
+                  class="checkbox"
+                />
+                Solar Modules
+                <input
+                  type="checkbox"
+                  name="checkbox"
+                  value="Inverter"
+                  class="checkbox"
+                />
+                Inverter
+                <input
+                  type="checkbox"
+                  name="checkbox"
+                  value="ACDB"
+                  class="checkbox"
+                />
+                ACDB
+                <input
+                  type="checkbox"
+                  name="checkbox"
+                  value="cables"
+                  class="checkbox"
+                />
+                cables
+                <input
+                  type="checkbox"
+                  name="checkbox"
+                  value="Aliminium structure"
+                  class="checkbox"
+                />
+                Aliminium structure
+                <input
+                  type="checkbox"
+                  name="checkbox"
+                  value="GI structure"
+                  class="checkbox"
+                />
+                GI structure
+                <input
+                  type="checkbox"
+                  name="checkbox"
+                  value="BOS"
+                  class="checkbox"
+                />
+                BOS
+              </div>
+            </div>
+            <div id="submit-id">
+              <button class="submit-btn">submit</button>
+            </div>
+          </nav>
+        </form>
+      </div>
+      <!---->
+      <div class="overlay hidden"></div>
+    </main>
+
+    <p class="footer__copyright">
+      &copy; Copyright by
+      <a
+        class="footer__link email-link"
+        target="_blank"
+        href="mailto: puneet.verma.1994@gmail.com"
+        >Puneet Verma</a
+      >. Use for learning or your portfolio. Don't use to teach. Don't claim as
+      your own product.
+    </p>
+  </body>
+</html>
